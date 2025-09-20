@@ -59,3 +59,16 @@
 
 
 ## MultiStage build
+- FROM node-lts:alpine as builder
+
+## Network
+- docker network ls
+- host, bridge, none, overlay , macvlan
+- user defined bridge is prefered as they give automatic DNS resolution betweekn container names
+- docker network connect "network name"
+- docker container run --network 
+- docker network disconnect
+- docker network rm 
+
+# Docker compose
+## Each container is a service
